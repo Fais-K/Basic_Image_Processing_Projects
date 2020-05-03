@@ -21,3 +21,11 @@ The main motive behind this project is to find the objects which are within a ce
 #### Example
 ![sample](https://github.com/Fais-K/Basic_Image_Processing_Projects/blob/master/Proximate%20Objects%20Detector/Screenshot.png)
 
+## Shapes Identifier
+This program identifies shapes in the image, draws outline around it and displays what shape it is. 
+#### Requirements
+   Python3, OpenCV, numpy, imutils, argparse
+#### Example
+![sample](https://github.com/Fais-K/Basic_Image_Processing_Projects/blob/master/Shapes%20Identifier/Screenshot.png)
+
+
