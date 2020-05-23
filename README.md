@@ -1,11 +1,23 @@
 # Basic Image Processing Projects
 ---
+## Basic Motion Detector
+This program detects any motion in the frame; thus, it can be used to detect any intruders in the building. The program works on the assumption that the first frame is always the motionless background. 
+#### File Structure
+There are three files included in this project:
+1. To detect motion from a live camera stream and to output it the display. 
+2. To detect motion from an existing video file and to output it the display.
+3. To detect motion from a file or live camera and to store the output frames into a video file.
+#### Requirements
+   Python3, OpenCV, numpy, imutils, argparse
+#### Example
+![sample](https://github.com/Fais-K/Basic_Image_Processing_Projects/blob/master/Motion%20Detector%20-%20Basic/output.gif)
+
 ## Block Counter
 This program essentially finds and counts the number of blocks or shapes in an image. As an example, i have provided a tetris block image here, on which this program was able to successfully execute, identify and display the number of tetris blocks present in the image.
 #### Requirements
    Python3, OpenCV, imutils, argparse
 #### Example
-![sample](https://github.com/Fais-K/Basic_Image_Processing_Projects/blob/master/Blocks%20Counter/Screenshot.png?raw=true)
+![sample](https://github.com/Fais-K/Basic_Image_Processing_Projects/blob/master/Blocks%20Counter/Screenshot.png)
    
 ## Color Blocks Finder
 This program identifies blocks or shapes in the image based on their color and marks a red rectangular box around the same. As an exapmle, i have provided a lego block image here, on which this program was able to successfully execute, identify and mark the chosen colored lego blocks in the image.
